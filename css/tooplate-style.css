@@ -12,6 +12,13 @@ body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
 }
+.project-info img {
+  max-width: 70%; /* Adjust this percentage to control the width */
+  height: auto; /* Keeps the aspect ratio intact */
+  margin: 0 auto; /* Centers the image */
+  display: block; /* Ensures the image stays centered */
+}
+
 
 .full-screen {
   padding: 8rem 0;
@@ -369,6 +376,9 @@ b, strong {
 .owl-carousel .owl-nav span {
   display: none;
 }
+.owl-dots {
+  margin-top: 20px; /* Adjust the value to move the dots further down */
+}
 .owl-carousel .owl-nav .owl-prev:before,
 .owl-carousel .owl-nav .owl-next:before {
   background: none;
@@ -408,7 +418,7 @@ b, strong {
   height: 8px;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #5b5b5b;
+  background: #ffc200;
 }
 
 .google-map iframe {
