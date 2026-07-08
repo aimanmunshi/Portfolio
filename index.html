@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Aiman Munshi — developer portfolio. Certifications, DSA progress, projects and skills.">
+  <meta name="author" content="Aiman Munshi">
+  <meta name="theme-color" content="#05050f">
+
+  <title>Aiman Munshi — Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-orbit"><span></span><span></span></div>
+    <div class="loader-text">Entering orbit&hellip;</div>
+  </div>
+
+  <!-- BACKGROUND LAYERS -->
+  <canvas id="starfield"></canvas>
+  <div class="nebula-glow one"></div>
+  <div class="nebula-glow two"></div>
+  <div class="nebula-glow three"></div>
+  <div class="cursor-glow"></div>
+
+  <div class="wrap">
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="container">
+        <a class="brand" href="#about">
+          <img src="images/project/topleft.jpeg" alt="Aiman Munshi">
+          Aiman<span class="dot">.</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#dsa">DSA</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ABOUT / HERO -->
+    <section id="about" class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <span class="hero-eyebrow"><span class="pulse"></span>Available for opportunities</span>
+
+            <h1>
+              <span class="hi">Welcome to my corner of the universe</span>
+              <span class="name-gradient">Hey, I'm Aiman Munshi</span><br>
+              I'm <span class="role-cycle">
+                <span>a Beginner</span>
+                <span>a Learner</span>
+                <span>a Builder</span>
+                <span>an Explorer</span>
+              </span>
+            </h1>
+
+            <p class="lede">Small-scale developer with big aspirations, constantly learning and growing in the world of code.</p>
+
+            <div class="btn-row">
+              <a href="https://www.linkedin.com/in/aiman-munshi-6ab0b5331/" class="btn btn-solid" target="_blank" rel="noopener">
+                <i class="uil uil-linkedin fab fa-linkedin"></i> LinkedIn
+              </a>
+              <a href="https://github.com/aimanmunshi" class="btn" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a href="https://www.codechef.com/users/aimanmunshi" class="btn" target="_blank" rel="noopener">
+                <i class="fas fa-lightbulb"></i> CodeChef
+              </a>
+              <a href="https://www.hackerrank.com/am5373" class="btn" target="_blank" rel="noopener">
+                <i class="fab fa-hackerrank"></i> HackerRank
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal reveal-delay-2">
+            <div class="orbit-ring r3"></div>
+            <div class="orbit-ring r2"><span class="orbit-dot"></span></div>
+            <div class="orbit-ring r1"><span class="orbit-dot"></span></div>
+            <div class="hero-portrait">
+              <img src="images/project/realdp.png" alt="Aiman Munshi portrait">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue"><span class="line"></span>Scroll</div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">My Certifications till now</h2>
+          <p class="section-sub">Verified coursework across programming, databases, and systems — click any card to view the credential.</p>
+        </div>
+
+        <div class="cert-grid">
+          <a class="cert-card panel tilt-card reveal reveal-delay-1" href="https://drive.google.com/file/d/1jn1zNpq5McMzZXB09IT_-LcdHK_JxTbg/view?usp=sharing" target="_blank" rel="noopener">
+            <div class="cert-frame"><img src="images/project/Udemy_c_certificate.png" alt="Udemy C Programming Certificate" loading="lazy"></div>
+            <p class="cert-name">Udemy — C Programming</p>
+            <span class="cert-link">View credential <i class="fas fa-arrow-up-right-from-square"></i></span>
+          </a>
+
+          <a class="cert-card panel tilt-card reveal reveal-delay-2" href="https://drive.google.com/file/d/1jqiBzZxRl_sA6E6ohceNKpobeuPjdCg0/view?usp=sharing" target="_blank" rel="noopener">
+            <div class="cert-frame"><img src="images/project/Coursera QNY844DUQ7SQ-1.png" alt="Coursera Certificate" loading="lazy"></div>
+            <p class="cert-name">Coursera Certification</p>
+            <span class="cert-link">View credential <i class="fas fa-arrow-up-right-from-square"></i></span>
+          </a>
+
+          <a class="cert-card panel tilt-card reveal reveal-delay-3" href="https://drive.google.com/file/d/1jroJr_E3cVjxElQ_io_7tyzZr4cUJM06/view?usp=sharing" target="_blank" rel="noopener">
+            <div class="cert-frame"><img src="images/project/NPTEL-JAVA.png" alt="NPTEL Java Certificate" loading="lazy"></div>
+            <p class="cert-name">NPTEL — Java</p>
+            <span class="cert-link">View credential <i class="fas fa-arrow-up-right-from-square"></i></span>
+          </a>
+
+          <a class="cert-card panel tilt-card reveal reveal-delay-4" href="https://drive.google.com/file/d/19zCho3CTvM6d8-4W6Zb_LqG1mv1g1SiU/view?usp=sharing" target="_blank" rel="noopener">
+            <div class="cert-frame"><img src="images/project/COURSERA-DBMS.png" alt="Coursera DBMS Certificate" loading="lazy"></div>
+            <p class="cert-name">Coursera — DBMS</p>
+            <span class="cert-link">View credential <i class="fas fa-arrow-up-right-from-square"></i></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DSA PROGRESS + PROJECTS + SKILLS -->
+    <section id="dsa">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Trajectory</span>
+          <h2 class="section-title">My DSA Progress</h2>
+          <p class="section-sub">Charting the constructs I've mastered on the path through data structures &amp; algorithms.</p>
+        </div>
+
+        <div class="const-columns">
+          <div class="const-list reveal reveal-delay-1">
+            <div class="const-node">
+              <span class="node-marker">1</span>
+              <div><h3>Arrays</h3><p>I have a solid understanding of arrays and their practical implementations in sorting, searching, and data storage.</p></div>
+            </div>
+            <div class="const-node">
+              <span class="node-marker">2</span>
+              <div><h3>Linked Lists</h3><p>I am proficient in linked lists, using them for dynamic memory management and implementing data structures like stacks and queues.</p></div>
+            </div>
+            <div class="const-node">
+              <span class="node-marker">3</span>
+              <div><h3>Stacks</h3><p>I know stacks and their practical use in applications like expression evaluation, parsing, and backtracking.</p></div>
+            </div>
+          </div>
+
+          <div class="const-list reveal reveal-delay-2">
+            <div class="const-node">
+              <span class="node-marker">4</span>
+              <div><h3>Queues</h3><p>I am familiar with queues and their implementation in real-world scenarios like scheduling and buffering.</p></div>
+            </div>
+            <div class="const-node">
+              <span class="node-marker">5</span>
+              <div><h3>Trees</h3><p>I understand trees, including binary trees and binary search trees, and their applications in hierarchical data representation.</p></div>
+            </div>
+            <div class="const-node">
+              <span class="node-marker">6</span>
+              <div><h3>Hashing</h3><p>I have knowledge of hashing techniques for efficient data retrieval and collision handling in hash tables.</p></div>
+            </div>
+            <div class="const-node">
+              <span class="node-marker">7</span>
+              <div><h3>Graphs</h3><p>I understand graphs and their practical uses in representing networks, solving shortest path problems, and analyzing connections.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Launch Log</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-sub">Things I've built and shipped, end to end.</p>
+        </div>
+
+        <div class="project-grid">
+          <div class="project-card panel tilt-card reveal reveal-delay-1">
+            <span class="proj-index">01</span>
+            <h3><a href="https://github.com/aimanmunshi/SuperMarket-_Management_System" target="_blank" rel="noopener">SuperMarket Management System</a></h3>
+            <p>Supermarket Management System uses Java Swing for the user interface and MySQL for database management, with JDBC to connect them. The system includes features like employee login and aims to streamline supermarket operations.</p>
+            <div class="tag-row">
+              <span class="tag">Java</span>
+              <span class="tag">Swing</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">JDBC</span>
+            </div>
+          </div>
+
+          <div class="project-card panel tilt-card reveal reveal-delay-2">
+            <span class="proj-index">02</span>
+            <h3><a href="https://github.com/aimanmunshi/Heart-Disease-Prediction" target="_blank" rel="noopener">Heart Disease Prediction Model</a></h3>
+            <p>This model leverages data science techniques to analyze key health indicators and predict the likelihood of heart-related conditions.</p>
+            <div class="tag-row">
+              <span class="tag">Python</span>
+              <span class="tag">Data Science</span>
+              <span class="tag">ML</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Toolkit</span>
+          <h2 class="section-title">Skills</h2>
+          <p class="section-sub">The languages and concepts I currently navigate by.</p>
+        </div>
+
+        <div class="const-columns" style="max-width:640px;margin:0 auto;">
+          <div class="const-list reveal reveal-delay-1">
+            <div class="const-node">
+              <span class="node-marker">1</span>
+              <div><h3>C/C++ Programming</h3><p>I have a solid understanding of C and C++ programming, with experience in their core concepts and syntax.</p></div>
+            </div>
+            <div class="const-node">
+              <span class="node-marker">2</span>
+              <div><h3>Java &amp; Python</h3><p>I possess foundational knowledge of both Java and Python, with familiarity in their essential programming principles.</p></div>
+            </div>
+            <div class="const-node">
+              <span class="node-marker">3</span>
+              <div><h3>Studying DSA</h3><p>I am currently focused on studying Graphs and Hashing within data structures and algorithms, with a solid foundation in linked lists, arrays, stacks, and queues.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Transmission</span>
+          <h2 class="section-title">Get In Touch</h2>
+        </div>
+
+        <div class="contact-panel panel reveal reveal-delay-1">
+          <div class="contact-icon"><i class="fas fa-satellite-dish"></i></div>
+          <h3>Let's build something</h3>
+          <div class="contact-detail"><i class="fas fa-phone"></i> 8178045506</div>
+          <div class="contact-detail"><i class="fas fa-envelope"></i> <a href="mailto:munshiaiman2005@gmail.com">munshiaiman2005@gmail.com</a></div>
+
+          <div class="contact-socials">
+            <a href="https://www.linkedin.com/in/aiman-munshi-6ab0b5331/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/aimanmunshi" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.codechef.com/users/aimanmunshi" target="_blank" rel="noopener" aria-label="CodeChef"><i class="fas fa-lightbulb"></i></a>
+            <a href="https://www.hackerrank.com/am5373" target="_blank" rel="noopener" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        &copy; <span id="year"></span> <span>Aiman Munshi</span>. Built somewhere among the stars.
+      </div>
+    </footer>
+
+  </div>
+
+  <button class="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
